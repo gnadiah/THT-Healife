@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Health problem prediction</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Kết quả dự đoán</h1>
+  <div class="container">
+    <div class="illness-input">
+      <h3 style="color: #9f697a; font-size: 25px;">Nhập các triệu chứng bạn đang mắc</h3>
+      <h4>Kết quả không hoàn toàn chính xác, chỉ nên tham khảo.</h4>
+      <br>
+
+      <textarea style="font-size: 25px;" class="illness-input" name="text" rows="2"
+        placeholder="E.g., Sốt, ho, khó thở,..." cols="50" id="symptoms"></textarea>
+      <br>
+      <br>
+      <button class="search-btn" style="font-size: 25px;" onclick="predict()">PREDICT</button>
+      <!--<div class="separator"></div>-->
+      <!-- <button class="location-btn">Use Current Location</button>-->
+    </div>
+    <div class="illness-data" id="predictionData">
+      <!--
+        <div class="current-illness">
+          <div class="details">
+            
+            <h2>Kết quả dự đoán</h2>
+          </div>
+        </div>
+        -->
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
